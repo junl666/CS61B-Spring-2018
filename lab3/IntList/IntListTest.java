@@ -1,4 +1,5 @@
 import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -64,6 +65,40 @@ public class IntListTest {
         IntList exp = IntList.of(1, 2, 3, 4, 5, 6);
         assertEquals(exp, IntList.catenate(A, B));
         assertEquals(IntList.of(1, 2, 3), A);
+    }
+
+    @Test
+    public void testReverseEmpty() {
+        IntList A = IntList.of();
+        assertEquals(null, IntList.reverse(A));
+    }
+
+    @Test
+    public void testReverse1() {
+        IntList A = IntList.of(1, 3, 6, 9);
+        IntList exp = IntList.of(9, 6, 3, 1);
+        assertEquals(exp, IntList.reverse(A));
+    }
+
+    @Test
+    public void testReverse2() {
+        IntList A = IntList.of(1, 3, 6, 9, 5);
+        IntList exp = IntList.of(5, 9, 6, 3, 1);
+        assertEquals(exp, IntList.reverse(A));
+    }
+
+    @Test
+    public void testReverse3() {
+        IntList A = IntList.of(1);
+        IntList exp = IntList.of(1);
+        assertEquals(exp, IntList.reverse(A));
+    }
+
+    @Test
+    public void testReverseDestructive() {
+        IntList A = IntList.of(1, 3, 6, 9);
+        IntList.reverse(A);
+        assertNotEquals(A, IntList.of(1, 3, 6, 9));
     }
 
     /** If you're running this from the command line, you'll need
