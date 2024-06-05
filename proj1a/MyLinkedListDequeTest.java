@@ -6,7 +6,7 @@ import org.junit.Test;
 public class MyLinkedListDequeTest {
     @Test
     public void testGet() {
-        LinkedListDeque <String> myList1 = new LinkedListDeque<>();
+        LinkedListDeque<String> myList1 = new LinkedListDeque<>();
         myList1.addFirst("first");
         myList1.addLast("second");
         assertEquals("first", myList1.get(0));
@@ -18,20 +18,20 @@ public class MyLinkedListDequeTest {
         assertEquals(null, myList1.get(0));
         assertEquals(0, myList1.size());
 
-        LinkedListDeque <Integer> myList2 = new LinkedListDeque<>();
+        LinkedListDeque<Integer> myList2 = new LinkedListDeque<>();
         myList2.addLast(2);
         myList2.addLast(3);
         myList2.addFirst(1);
-        assertEquals(3, (int)myList2.get(2));
+        assertEquals(3, (int) myList2.get(2));
         myList2.removeFirst();
         myList2.removeFirst();
-        assertEquals(3, (int)myList2.get(0));
+        assertEquals(3, (int) myList2.get(0));
         assertEquals(1, myList2.size());
     }
 
     @Test
     public void testGetR() {
-        LinkedListDeque <String> myList = new LinkedListDeque<>();
+        LinkedListDeque<String> myList = new LinkedListDeque<>();
         myList.addFirst("first");
         myList.addLast("second");
         assertEquals("first", myList.getRecursive(0));
