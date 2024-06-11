@@ -38,7 +38,7 @@ public class Palindrome {
     /**
      * Helper function for isPalindrome.
      */
-    public boolean isPalindromeHelper(Deque<Character> d) {
+    private boolean isPalindromeHelper(Deque<Character> d) {
         if (d.isEmpty() || d.size() == 1) {
             return true;
         } else if (d.removeFirst() == d.removeLast()) {
@@ -51,7 +51,7 @@ public class Palindrome {
     /**
      * Helper function for isPalindrome with the given comparator.
      */
-    public boolean isPalindromeHelper(Deque<Character> d, CharacterComparator cc) {
+    private boolean isPalindromeHelper(Deque<Character> d, CharacterComparator cc) {
         if (d.isEmpty() || d.size() == 1) {
             return true;
         } else if (cc.equalChars(d.removeFirst(), d.removeLast())) {
