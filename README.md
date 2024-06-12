@@ -2,7 +2,7 @@
 This is my self-study solution to CS61B Spring 2018 UC Berkeley
 
 # CheckList
-- [ ] hw1
+- [xxx] hw1
 - [ ] hw2
 - [ ] hw3/hw3/hash
 - [ ] hw4
