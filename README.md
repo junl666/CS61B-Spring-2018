@@ -23,7 +23,7 @@ This is my self-study solution to CS61B Spring 2018 UC Berkeley
 - [ ] lab15
 - [x] proj0
 - [x] proj1a
-- [ ] proj1b
+- [x] proj1b
 - [ ] proj1gold
 - [ ] Proj2
 - [ ] proj3
