@@ -85,7 +85,7 @@ public class BSTMap<K extends Comparable<K>, V extends Comparable<V>> implements
         if (currNode.key.compareTo(key) == 0) {
             return true;
         } else {
-            return containsKey(currNode.left, key) | containsKey(currNode.right, key);
+            return containsKey(currNode.left, key) || containsKey(currNode.right, key);
         }
     }
 
