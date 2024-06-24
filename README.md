@@ -4,7 +4,7 @@ This is my self-study solution to CS61B Spring 2018 UC Berkeley
 # CheckList
 - [x] hw1
 - [ ] hw2
-- [ ] hw3/hw3/hash
+- [x] hw3/hw3/hash
 - [ ] hw4
 - [ ] hw5
 - [ ] hw6
@@ -14,6 +14,10 @@ This is my self-study solution to CS61B Spring 2018 UC Berkeley
 - [x] lab2setup
 - [x] lab3
 - [ ] lab4
+- [x] lab05-DisjointSet
+- [x] lab06-BSTMap
+- [x] lab07-LLRBs
+- [x] lab08-HaspMap
 - [ ] lab9
 - [ ] lab10
 - [ ] lab11/lab11/graphs
