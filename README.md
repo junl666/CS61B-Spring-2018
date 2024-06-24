@@ -13,7 +13,7 @@ This is my self-study solution to CS61B Spring 2018 UC Berkeley
 - [x] lab2
 - [x] lab2setup
 - [x] lab3
-- [ ] - [ ] lab4
+- [ ] lab4
 - [x] lab05-DisjointSet
 - [x] lab06-BSTMap
 - [x] lab07-LLRBs
