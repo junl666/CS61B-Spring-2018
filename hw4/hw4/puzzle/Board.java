@@ -108,6 +108,9 @@ public class Board implements WorldState {
      * the same position as y's*/
     public boolean equals(Object y) {
         if (y instanceof Board) {
+            if (((Board) y).size() != N) {
+                return false;
+            }
             for (int i = 0; i < N; i++) {
                 for (int j = 0; j < N; j++) {
                     if (tiles[i][j] != ((Board) y).tiles[i][j]) {

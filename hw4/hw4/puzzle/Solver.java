@@ -59,7 +59,7 @@ public class Solver {
     private int minMoves;
 
 
-    private class SearchNode implements Comparable{
+    private class SearchNode implements Comparable {
         private WorldState currState;
         private int movesMade;
         private SearchNode prevNode;
