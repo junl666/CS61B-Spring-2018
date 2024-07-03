@@ -30,21 +30,15 @@ public class MazeDepthFirstPaths extends MazeExplorer {
 
         if (v == t) {
             targetFound = true;
-        }
-
-        if (targetFound) {
             return;
         }
 
         for (int w : maze.adj(v)) {
-            if (!marked[w]) {
+            if (!marked[w] && !targetFound) {
                 edgeTo[w] = v;
-                announce();
                 distTo[w] = distTo[v] + 1;
+                announce();
                 dfs(w);
-                if (targetFound) {
-                    return;
-                }
             }
         }
     }
