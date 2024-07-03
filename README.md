@@ -5,7 +5,7 @@ This is my self-study solution to CS61B Spring 2018 UC Berkeley
 - [x] hw1
 - [ ] hw2
 - [x] hw3/hw3/hash
-- [ ] hw4
+- [x] hw4
 - [ ] hw5
 - [ ] hw6
 - [ ] hw7
@@ -19,8 +19,8 @@ This is my self-study solution to CS61B Spring 2018 UC Berkeley
 - [x] lab07-LLRBs
 - [x] lab08-HaspMap
 - [ ] lab9
-- [ ] lab10
-- [ ] lab11/lab11/graphs
+- [x] lab10
+- [x] lab11/lab11/graphs
 - [ ] lab12
 - [ ] lab13
 - [ ] lab14
@@ -28,6 +28,6 @@ This is my self-study solution to CS61B Spring 2018 UC Berkeley
 - [x] proj0
 - [x] proj1a
 - [x] proj1b
-- [ ] proj1gold
+- [x] proj1gold
 - [ ] Proj2
 - [ ] proj3
